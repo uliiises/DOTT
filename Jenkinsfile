@@ -21,4 +21,9 @@ pipeline {
         }
         
     }
+    
+    tools {
+    jdk 'jdk16'
+    }
+    
 }
