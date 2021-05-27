@@ -23,7 +23,7 @@ pipeline {
     }
     
     tools {
-    jdk 'jdk16'
+    jdk 'jdk11'
     }
     
 }
