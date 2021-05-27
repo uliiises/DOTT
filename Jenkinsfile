@@ -22,8 +22,8 @@ pipeline {
         
     }
     
-    tools {
+   /* tools {
     jdk 'jdk11'
-    }
+    } */
     
 }
