@@ -1,5 +1,5 @@
-sonar.projectKey=sonarqube
-sonar.branch.master
+sonar.projectKey=sonarqubepipe
+
 sonar.login=admin
 sonar.password=admin1
 sonar.sources=/var/jenkins_home/workspace/DOTT
