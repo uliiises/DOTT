@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    
+    tools {
+    jdk 'openjdk-11'
+    }
 
     stages {
         stage('Hello') {
@@ -21,9 +25,4 @@ pipeline {
         }
 
     }
-
-    tools {
-    jdk 'openjdk-11'
-    }
-
 }
