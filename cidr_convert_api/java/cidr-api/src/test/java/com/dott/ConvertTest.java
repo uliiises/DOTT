@@ -71,7 +71,7 @@ public class ConvertTest extends TestCase
 }
 */
  
-import static org.junit.Assert.*;
+import static com.junit.Assert.*;
 import junit.framework.Test;
    public void TestValidate() {
         int a = 1;
