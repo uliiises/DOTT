@@ -12,8 +12,7 @@ pipeline {
             }        
         }
 
-        stage('SonarQube') { /* Conect Sonarqube scanner with SonarCloud to do continuous inspection of code quality 
-                                     To the conection with SonarCloud I have my sonar-project.propierties file */
+        stage('SonarQube') {
             environment {
                 scannerHome = tool 'Sonar' 
             }
