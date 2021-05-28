@@ -67,7 +67,7 @@ public class ConvertTest extends TestCase
         assertFalse(Convert.ipv4Validation("a.b.c.d"));
         assertFalse(Convert.ipv4Validation("255.256.250.0"));
         assertFalse(Convert.ipv4Validation("...."));
-    } 
+    } */
     
     
     
@@ -76,6 +76,8 @@ public class ConvertTest extends TestCase
         int b = 2;
         assertTrue(a + b == 3);
     } */
+
+/*
 }
 
 */
