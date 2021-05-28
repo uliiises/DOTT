@@ -20,7 +20,7 @@ public class ConvertTest extends TestCase
         return new TestSuite( ConvertTest.class );
     }
     
-    public void TestValidate {
+    public void TestValidate() {
         int a = 1;
         int b = 2;
         assertTrue(a + b == 3);
