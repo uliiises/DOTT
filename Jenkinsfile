@@ -11,6 +11,12 @@ pipeline {
                 echo 'Hello World'
             }        
         }
+        
+        stage('Testing') {
+            steps {
+                sh 'mvn test'
+            }
+        }
 
         stage('SonarQube') {
             environment {
