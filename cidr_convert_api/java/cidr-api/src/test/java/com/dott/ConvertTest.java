@@ -1,11 +1,13 @@
-/*package com.dott;
+package com.dott;
+
+import static org.junit.Assert.*;
 
 import static com.dott.Convert.*;
 import junit.framework.Test;
 import junit.framework.TestCase;
-import junit.framework.TestSuite; */
+import junit.framework.TestSuite;
 
-/*
+
 public class ConvertTest extends TestCase
 {
 
@@ -69,12 +71,13 @@ public class ConvertTest extends TestCase
         assertFalse(Convert.ipv4Validation("...."));
     } 
 }
-*/
+
  
-import static com.junit.Assert.*;
+
+/*import static org.junit.Assert.*;
 import junit.framework.Test;
    public void TestValidate() {
         int a = 1;
         int b = 2;
         assertTrue(a + b == 3);
-    }
+    } */
