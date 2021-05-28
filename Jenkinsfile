@@ -12,11 +12,11 @@ pipeline {
             }        
         }
         
-        stage('Testing') {
+        /*stage('Testing') {
             steps {
                 sh 'mvn test'
             }
-        }
+        }*/
 
         stage('SonarQube') {
             environment {
